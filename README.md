@@ -1,5 +1,5 @@
 # Softmed
-Programa feito em JavaFX durante o 2º ano na Fundação Matias Machline.
+Programa feito em JavaFX e MySQL durante o 2º ano na Fundação Matias Machline.
 
 Com objetivo de facilitar consultas médicas e acompanhamento médico, o programa Softmed foi desenvolvido.
 
