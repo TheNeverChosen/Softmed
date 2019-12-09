@@ -1,0 +1,8 @@
+.root {
+    -fx-background-color: #65c997;
+    -fx-background-image: url("./gifs/a2.gif");
+    -fx-background-position: center center;
+    -fx-background-size: 900 675;
+    -fx-background-repeat: stretch;   
+}
+

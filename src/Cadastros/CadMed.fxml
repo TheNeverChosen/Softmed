@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" spacing="10.0" stylesheets="@../Css/azulCadastro.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cadastros.CadMedController">
+   <children>
+      <HBox alignment="CENTER">
+         <children>
+            <Text boundsType="VISUAL" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastrar Médico" wrappingWidth="248.13671875">
+               <font>
+                  <Font name="SansSerif Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="390.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+            <TextField fx:id="t1" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="39.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sobrenome" />
+            <TextField fx:id="t2" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="RG" />
+            <TextField fx:id="t3" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="56.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CPF" />
+            <TextField fx:id="t4" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="51.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="CRM">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="t5" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="46.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" />
+            <TextField fx:id="t6" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="38.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Login" />
+            <TextField fx:id="t7" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="42.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Senha" />
+            <TextField fx:id="t8" prefHeight="30.0" prefWidth="399.0">
+               <HBox.margin>
+                  <Insets left="39.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Estado" />
+            <ComboBox fx:id="comboEst" prefHeight="25.0" prefWidth="377.0" promptText="&lt;Selecione seu Estado&gt;">
+               <HBox.margin>
+                  <Insets left="36.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="30.0" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Especialidade" />
+            <ComboBox fx:id="comboEsp" prefHeight="25.0" prefWidth="377.0" promptText="&lt;Selecione sua Especialidade&gt;">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="30.0" prefWidth="400.0" spacing="100.0">
+         <children>
+            <Button fx:id="cancelar" mnemonicParsing="false" onAction="#acaoCancelar" text="Cancelar" />
+            <Button fx:id="cadastrar" mnemonicParsing="false" onAction="#acaoCad" text="Cadastrar" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

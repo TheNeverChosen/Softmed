@@ -1,0 +1,5 @@
+.button{
+-fx-background-color: transparent;
+-fx-border-color: transparent;
+-fx-background-image:  url("./gifs/config.gif");
+}

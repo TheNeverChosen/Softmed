@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Paciente.Consultas.HistoricoController">
+   <children>
+      <HBox alignment="CENTER" spacing="301.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <Button fx:id="marcar" mnemonicParsing="false" onAction="#marcarCons" text="Marcar Nova Consulta" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10.0">
+                     <children>
+                        <ComboBox fx:id="comboBus" onAction="#visivel" prefWidth="151.0" promptText="&lt;Forma de Busca&gt;" />
+                        <TextField fx:id="tbus" editable="false" onKeyReleased="#buscar" prefWidth="250.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER_RIGHT" spacing="10.0">
+               <children>
+                  <HBox alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0">
+                     <children>
+                        <Button fx:id="desmExc" mnemonicParsing="false" onAction="#retirar" text="Desmarcar / Excluir" />
+                        <Button fx:id="visualiza" mnemonicParsing="false" onAction="#visualizar" text="Mais Detalhes / Opções" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Filtrar Por" />
+                        <ComboBox fx:id="comboFilt" onAction="#filtrar" prefWidth="156.0" />
+                        <Button fx:id="reset" mnemonicParsing="false" onAction="#resetar" text="Resetar" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <TableView fx:id="table" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="1000.0">
+         <columns>
+            <TableColumn minWidth="0.0" prefWidth="428.0" text="C1" />
+            <TableColumn minWidth="0.0" prefWidth="426.0" text="C2" />
+         </columns>
+      </TableView>
+   </children>
+</VBox>

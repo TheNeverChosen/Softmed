@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Visualizadores.VisAtividadeController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Atividade">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Título">
+               <HBox.margin>
+                  <Insets right="28.0" />
+               </HBox.margin>
+            </Text>
+            <TextField fx:id="t1" prefWidth="340.0" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Descrição">
+               <HBox.margin>
+                  <Insets right="6.0" />
+               </HBox.margin>
+            </Text>
+            <TextArea fx:id="t2" prefHeight="150.0" prefWidth="340.0" wrapText="true" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Frequência" />
+            <Spinner fx:id="spinner" prefHeight="25.0" prefWidth="100.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vez(es) por" />
+            <ComboBox fx:id="comboPer" prefHeight="25.0" prefWidth="160.0" promptText="&lt;Período&gt;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" spacing="10.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Estado">
+               <HBox.margin>
+                  <Insets right="22.0" />
+               </HBox.margin>
+            </Text>
+            <ComboBox fx:id="comboEst" prefHeight="25.0" prefWidth="340.0" promptText="&lt;Estado&gt;" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" spacing="100.0">
+         <children>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#voltar" text="Voltar" />
+            <Button fx:id="exclui" mnemonicParsing="false" onAction="#excluir" text="Excluir" />
+            <Button fx:id="save" mnemonicParsing="false" onAction="#salvar" text="Salvar" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

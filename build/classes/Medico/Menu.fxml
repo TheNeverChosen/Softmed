@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="fundo" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" spacing="50.0" stylesheets="@../Css/menu.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medico.MenuController">
+   <children>
+      <HBox alignment="CENTER" spacing="50.0">
+         <children>
+            <Button fx:id="consultas" alignment="CENTER" mnemonicParsing="false" onAction="#consultar" onMouseEntered="#gifCons" onMouseExited="#imgCons" prefHeight="150.0" prefWidth="150.0" stylesheets="@../Css/consultaButton1.css" />
+            <Button fx:id="config" alignment="CENTER" mnemonicParsing="false" onAction="#configurar" onMouseEntered="#gifConfig" onMouseExited="#imgConfig" prefHeight="150.0" prefWidth="150.0" stylesheets="@../Css/configButton1.css" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" spacing="50.0">
+         <children>
+            <Button fx:id="deslog" alignment="CENTER" mnemonicParsing="false" onAction="#deslogar" onMouseEntered="#gifDeslog" onMouseExited="#imgDeslog" prefHeight="150.0" prefWidth="150.0" stylesheets="@../Css/logoutButton1.css" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

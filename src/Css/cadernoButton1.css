@@ -1,0 +1,8 @@
+.button{
+-fx-background-color: transparent;
+-fx-border-color: transparent;
+-fx-background-image:  url("./imagens/caderno.png");
+-fx-background-size: 220 220;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}

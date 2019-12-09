@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vBox" alignment="CENTER" maxWidth="1.7976931348623157E308" style="-fx-background-color: #65c997;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Medico.Consultas.ConsultarController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Ambiente de Consulta Médica">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" spacing="20.0">
+         <children>
+            <Label fx:id="nomeMed" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="nomeMed" />
+            <Label fx:id="nomePac" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="nomePac" />
+            <Label fx:id="especialidade" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Especialidade" />
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" stylesheets="@../../Css/separator.css" />
+   </children>
+</VBox>

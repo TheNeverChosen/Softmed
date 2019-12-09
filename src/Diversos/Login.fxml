@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Diversos.LoginController">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Img/medicina.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="30.0" spacing="5.0">
+               <children>
+                  <Text fill="#006d5b" strokeType="OUTSIDE" strokeWidth="0.0" text="Login:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="t1" onKeyPressed="#logarAtalho" prefWidth="150.0">
+                     <HBox.margin>
+                        <Insets left="3.0" />
+                     </HBox.margin></TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" spacing="5.0">
+               <children>
+                  <Text fill="#006d5b" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <PasswordField fx:id="t2" onKeyPressed="#logarAtalho" prefWidth="150.0">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </PasswordField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" spacing="5.0">
+               <children>
+                  <Text fill="#006d5b" strokeType="OUTSIDE" strokeWidth="0.0" text="Tipo:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <ComboBox fx:id="comboTip" prefWidth="150.0">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </ComboBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" spacing="50.0">
+               <children>
+                  <Button fx:id="cad" mnemonicParsing="false" onAction="#cadMed" text="Cadastrar Médico">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button fx:id="log" mnemonicParsing="false" onAction="#Logar" text="Logar" />
+                  <Button fx:id="pac" mnemonicParsing="false" onAction="#cadPac" text="Cadastrar Paciente">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

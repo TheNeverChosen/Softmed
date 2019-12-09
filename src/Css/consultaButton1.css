@@ -1,0 +1,8 @@
+.button{
+-fx-background-color: transparent;
+-fx-border-color: transparent;
+-fx-background-image:  url("./imagens/consultas.png");
+-fx-background-size: 190 190;
+-fx-background-position: center center;
+-fx-background-repeat: stretch;
+}
