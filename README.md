@@ -3,7 +3,7 @@ Programa feito em JavaFX e MySQL durante o 2º ano na Fundação Matias Machline
 
 Com objetivo de facilitar consultas médicas e acompanhamento médico, o programa Softmed foi desenvolvido.
 
-Link do executavel: https://www.dropbox.com/s/kvt0gtp707lp0k8/SoftMed.zip?dl=0
+Arquivos de projeto: https://drive.google.com/drive/folders/1PeMIouGMESvmZohsHe_TR2cFig3Bz2pf?usp=sharing
 
 Passos para rodar o aplicativo:
 
