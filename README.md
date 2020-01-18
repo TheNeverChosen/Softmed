@@ -1,26 +1,26 @@
 # Softmed
-Programa feito em JavaFX e MySQL durante o 2º ano na Fundação Matias Machline.
+Program done in Java using JavaFX and MySQL during my second year of High School at FMM (Fundação Matias Machline)
 
-Com objetivo de facilitar consultas médicas e acompanhamento médico, o programa Softmed foi desenvolvido.
+Softmed program was developed in order to make consultations and medical follow-up easier.
 
-Arquivos de projeto: https://drive.google.com/drive/folders/1PeMIouGMESvmZohsHe_TR2cFig3Bz2pf?usp=sharing
+Development Files:https://drive.google.com/drive/folders/1PeMIouGMESvmZohsHe_TR2cFig3Bz2pf?usp=sharing
 
-Passos para rodar o aplicativo:
+To run the app:
 
-1.Instale MySQL Workbench
+1. Install MySQL Workbench
 
-2.Configure o usuário root para ter a senha: 1234
+2. Set up the user root with the password: 1234
 
-3.Execute os comandos sql contidos no arquivo "Banco - Softmed.sql"
+3. Run the sql commands contained in the "Banco - Softmed.sql" file
 
-4.Execute o programa
+4.Run the program
 
-Ao rodar as linhas sql do banco softmed 2 usuarios poderao ser usados:
+After running the sql commands, 2 users can be used:
 
-médico --> login: alberto12 // senha: 1234
+medic --> login: alberto12 // password: 1234
 
-paciente --> login: ronaldo7 // senha: 1234
+patient --> login: ronaldo7 // password: 1234
 
-mas também é possivel cadastrar outros usuários e usar o programa normalmente.
+Also is possible to register others users and use the program normally.
 
-obs.: para um paciente marcar uma consulta, o médico precisa ter disponibilizado um horário prévio na sua conta
+The medic can provide the appointment days and the patient can make an appointment to see the doctor on available days.
