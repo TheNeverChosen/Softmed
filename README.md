@@ -1,5 +1,5 @@
 # Softmed
-Program done in Java using JavaFX and MySQL during my second year of High School at FMM (Fundação Matias Machline)
+Program made in Java using JavaFX and MySQL during my second year of High School at FMM (Fundação Matias Machline)
 
 Softmed program was developed in order to make consultations and medical follow-up easier.
 
